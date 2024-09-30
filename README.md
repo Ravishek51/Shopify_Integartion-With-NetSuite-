@@ -1,9 +1,10 @@
-# Shopify_Integartion-With-NetSuite
-Hey hope you are doig well.
-So My company requirement is they wanted to Integrate netSuite with shopify without using third party application 
-Like NetSuite connectors and Celigo 
-So I have done this with  uisng netSuite APIs 
-#How this approch work I have done with UserEvent Script afterSubit context type 
-It fetch the all detials form savesearch and create payload and send the the requre data in using Https.post API 
+I hope you're doing well.
 
-Thanks 
+Our company had a requirement to integrate NetSuite with Shopify without utilizing any third-party applications, such as NetSuite connectors or Celigo. To meet this requirement, I successfully implemented the integration using NetSuite's native APIs.
+
+Approach:
+I achieved this by utilizing a UserEvent Script with the afterSubmit context. This script fetches the necessary details from a saved search, constructs the required payload, and sends the data to Shopify using the NetSuite https.post API.
+
+This approach ensures seamless communication between the two platforms without relying on third-party solutions.
+
+Thank you.
